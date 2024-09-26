@@ -7,68 +7,75 @@
 
 ## 2. Nhờ AI Thiết Kế Ra Một Kế Hoạch Làm Game Trong 1 Tháng
 Kế Hoạch Thực Hiện 30 Ngày
-Tuần 1: Cài Đặt và Làm Quen với Unity
-Ngày 1-2: Cài đặt Unity và Làm quen với Giao diện
 
+Tuần 1: Cài Đặt và Làm Quen với Unity
+
+Ngày 1-2: Cài đặt Unity và Làm quen với Giao diện
 Tải xuống và cài đặt Unity Hub và Unity Editor.
 Tạo một dự án mới với tên "Lost in the Haunted Forest."
 Khám phá giao diện Unity: Scene, Game, Inspector, Project.
-Ngày 3-4: Tạo Môi Trường Rừng
 
+Ngày 3-4: Tạo Môi Trường Rừng
 Tạo khu rừng:
 Sử dụng các asset miễn phí từ Unity Asset Store hoặc tự tạo cây cối, đường đi, và các đối tượng khác trong rừng.
 Thêm các yếu tố đặc biệt như tảng đá, ao nước, hoặc các vật thể ma quái.
-Ngày 5-7: Nhân Vật và Điều Khiển
 
+Ngày 5-7: Nhân Vật và Điều Khiển
 Tạo mô hình nhân vật:
 Sử dụng asset miễn phí hoặc tạo một mô hình đơn giản cho nhân vật.
 Lập trình điều khiển:
 Viết script C# cho việc di chuyển nhân vật (dùng Input.GetAxis cho di chuyển và nhảy).
 Thêm cơ chế tấn công (như đòn đánh melee hoặc sử dụng vũ khí).
-Tuần 2: Kẻ Thù và Nhiệm Vụ
-Ngày 8-10: Kẻ Thù và AI
 
+
+Tuần 2: Kẻ Thù và Nhiệm Vụ
+
+Ngày 8-10: Kẻ Thù và AI
 Tạo mô hình kẻ thù (ma quái):
 Sử dụng asset miễn phí hoặc tự tạo một mô hình cho các sinh vật ma quái.
 Lập trình AI cho kẻ thù:
 Viết script cho kẻ thù di chuyển và tấn công người chơi.
 Tạo các hành vi như theo dõi người chơi hoặc ẩn nấp.
-Ngày 11-13: Cỏ Bốn Lá và Nhiệm Vụ
 
+Ngày 11-13: Cỏ Bốn Lá và Nhiệm Vụ
 Tạo mô hình cỏ bốn lá:
 Tạo hoặc tìm một asset cho cỏ bốn lá mà người chơi sẽ thu thập.
 Lập trình nhiệm vụ thu thập:
 Viết script kiểm tra xem người chơi đã thu thập đủ cỏ bốn lá hay chưa để mở khóa lối thoát.
-Ngày 14: Giao Diện Người Dùng (UI)
 
+Ngày 14: Giao Diện Người Dùng (UI)
 Thiết kế UI cơ bản:
 Sử dụng Unity UI để tạo thanh sức khỏe, hiển thị số lượng cỏ bốn lá và điểm số.
 Thêm menu tạm dừng và thông báo cho nhiệm vụ.
-Tuần 3: Tinh Chỉnh Gameplay và Cấp Độ Mới
-Ngày 15-17: Tạo Nhiều Cấp Độ Rừng
 
+
+Tuần 3: Tinh Chỉnh Gameplay và Cấp Độ Mới
+
+Ngày 15-17: Tạo Nhiều Cấp Độ Rừng
 Thiết kế cấp độ mới:
 Tạo thêm các khu vực trong rừng với chủ đề khác nhau (ví dụ: khu vực tối tăm, khu vực nhiều cây cối).
 Lập trình chuyển cảnh:
 Tạo hệ thống cho phép người chơi di chuyển giữa các khu vực.
-Ngày 18-21: Cải Thiện Gameplay
 
+Ngày 18-21: Cải Thiện Gameplay
 Thêm các yếu tố mới:
 Thêm các tính năng như các chướng ngại vật trong rừng hoặc các nhiệm vụ phụ.
 Tinh chỉnh hành vi của kẻ thù để tăng độ khó.
-Tuần 4: Tinh Chỉnh và Hoàn Thiện
-Ngày 22-24: Âm Thanh và Hiệu Ứng
 
+Tuần 4: Tinh Chỉnh và Hoàn Thiện
+
+Ngày 22-24: Âm Thanh và Hiệu Ứng
 Thêm âm thanh:
 Tìm kiếm và thêm âm thanh cho các hành động: di chuyển, tấn công, và tiếng động ma quái.
 Sử dụng hiệu ứng hình ảnh:
 Thêm hiệu ứng ánh sáng và mờ để tăng cường cảm giác hồi hộp.
-Ngày 25-27: Kiểm Tra và Sửa Lỗi
 
+Ngày 25-27: Kiểm Tra và Sửa Lỗi
 Chạy thử nghiệm:
 Chơi thử game để tìm lỗi và điều chỉnh cân bằng gameplay.
 Sửa lỗi và cải thiện:
 Ghi chú các vấn đề và sửa chữa, nâng cao trải nghiệm người chơi.
+
 Ngày 28-30: Xuất Bản và Phản Hồi
 
 Xuất bản game:
