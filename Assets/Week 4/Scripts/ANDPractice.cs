@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,13 +26,46 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập tuổi, giấy phép lái xe, và kinh nghiệm lái xe
         // Kiểm tra nếu người dùng trên 18 tuổi, có giấy phép lái xe, và có kinh nghiệm trên 1 năm
+        {
+
+            int age = 20;
+            bool hasLicense = true;
+            int exp = 2;
+
+            // Kiểm tra điều kiện
+            if (age > 18 && hasLicense && exp > 1)
+            {
+                Debug.Log("qualified");
+            }
+            else
+            {
+                Debug.Log("not qualified");
+            }
+        }
     }
 
     // Bài Tập 2: Kiểm Tra Điều Kiện Vào Công Viên Giải Trí
     void BaiTap2()
     {
+
         // Nhập thông tin về vé, đã đăng ký trước, và tiền sử bệnh tim
         // Kiểm tra nếu người dùng có vé, đã đăng ký trước, và không có tiền sử bệnh tim
+        {
+
+            bool hasTicket = true;
+            bool isRegistered = true;
+            bool hasHeartCondition = true;
+
+
+            if (hasTicket && isRegistered && !hasHeartCondition)
+            {
+                Debug.Log("qualified");
+            }
+            else
+            {
+                Debug.Log("not qualified");
+            }
+        }
     }
 
     // Bài Tập 3: Điều Kiện Đạt Học Bổng
@@ -39,6 +73,21 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập điểm trung bình, điểm hoạt động ngoại khóa, và kiểm tra kỷ luật
         // Kiểm tra nếu điểm trung bình >= 9.0, điểm ngoại khóa >= 8.0, và không vi phạm kỷ luật
+        {
+
+            float averageScore = 1f;
+            float extracurricularScore = 1f;
+            bool hasDisciplinaryRecord = true;
+
+            if (averageScore >= 9.0f && extracurricularScore >= 8.0f && !hasDisciplinaryRecord)
+            {
+                Debug.Log("qualified");
+            }
+            else
+            {
+                Debug.Log("not qualified");
+            }
+        }
     }
 
     // Bài Tập 4: Kiểm Tra Đăng Ký Hợp Lệ
@@ -46,6 +95,18 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập thông tin email, xác nhận qua điện thoại, và phí tham gia
         // Kiểm tra nếu email hợp lệ, đã xác nhận qua điện thoại, và đã thanh toán phí tham gia
+        bool isValidEmail = true;
+        bool isPhoneVerified = true;
+        bool hasPaidFee = true;
+
+        if (isValidEmail && isPhoneVerified && hasPaidFee)
+        {
+            Debug.Log("qualified");
+        }
+        else
+        {
+            Debug.Log("not qualified");
+        }
     }
 
     // Bài Tập 5: Kiểm Tra Điều Kiện Thi Lại
@@ -53,6 +114,18 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập điểm tổng kết, số môn thi trượt, và điểm chuyên cần
         // Kiểm tra nếu điểm tổng kết < 5.0, số môn trượt <= 2, và điểm chuyên cần > 75%
+        float finalScore = 1f;
+        float failedSubjects = 1f;
+        float attendanceScore = 1f;
+
+        if (finalScore < 5.0f && failedSubjects <= 2 && attendanceScore > 0.75)
+        {
+            Debug.Log("qualified");
+        }
+        else
+        {
+            Debug.Log("not qualified");
+        }
     }
 
     // Bài Tập 6: Xét Tuyển Nhân Viên
@@ -60,6 +133,18 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập thông tin về bằng đại học, kinh nghiệm và bài kiểm tra năng lực
         // Kiểm tra nếu ứng viên đã tốt nghiệp đại học, có ít nhất 2 năm kinh nghiệm, và vượt qua bài kiểm tra năng lực
+        bool hasDegree = true;
+        float yearsOfExperience = 3f;
+        bool passedAptitudeTest = true;
+
+        if (hasDegree && yearsOfExperience >= 2 && passedAptitudeTest)
+        {
+            Debug.Log("qualified");
+        }
+        else
+        {
+            Debug.Log("not qualified");
+        }
     }
 
     // Bài Tập 7: Kiểm Tra Điều Kiện Mua Hàng
@@ -67,6 +152,20 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập số tiền hiện có, kiểm tra hàng trong kho và chương trình khuyến mãi
         // Kiểm tra nếu người dùng có đủ tiền, có hàng trong kho, và đủ điều kiện tham gia khuyến mãi
+        {
+            float availableFunds = 1f;      
+            float itemPrice =1f;           
+            bool isItemInStock = true;        
+            bool isEligibleForDiscount =true;
+            if (availableFunds >= itemPrice && isItemInStock && isEligibleForDiscount)
+            {
+                Debug.Log("qualified");
+            }
+            else
+            {
+                Debug.Log("not qualified");
+            }
+        }
     }
 
     // Bài Tập 8: Đủ Điều Kiện Nhận Phần Thưởng
@@ -74,6 +173,7 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập thông tin về nhiệm vụ hoàn thành, điểm trung bình nhiệm vụ, và đăng nhập hệ thống
         // Kiểm tra nếu đã hoàn thành ít nhất 10 nhiệm vụ, điểm nhiệm vụ >= 8, và đăng nhập vào hệ thống trong 7 ngày qua
+        
     }
 
     // Bài Tập 9: Kiểm Tra Điều Kiện Thăng Chức
@@ -81,6 +181,18 @@ public class ANDPractice : MonoBehaviour
     {
         // Nhập số năm làm việc, chỉ tiêu công việc và vi phạm kỷ luật
         // Kiểm tra nếu đã làm việc trên 5 năm, đạt chỉ tiêu công việc và không vi phạm kỷ luật
+        float yearsOfService = 6f;
+        bool metWorkTarget = true;
+        bool hasDisciplinaryRecord = true;
+
+        if (yearsOfService > 5 && metWorkTarget && !hasDisciplinaryRecord)
+        {
+            Debug.Log("qualified");
+        }
+        else
+        {
+            Debug.Log("not qualified");
+        }
     }
 
     // Bài Tập 10: Điều Kiện Nhận Vé Miễn Phí
