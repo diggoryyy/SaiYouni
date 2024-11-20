@@ -3,7 +3,7 @@
 ## 1. Kỹ Thuật Spawner<T> Có Tên Gọi Là Gì
 
 Trả lời:
-
+Kỹ thuật Spawner<T> trong lập trình thường được gọi là Generic Factory Pattern hoặc Generic Spawner Pattern. Đây là một thiết kế sử dụng kiểu dữ liệu tổng quát (<T>) để tạo ra các đối tượng động với kiểu cụ thể được chỉ định tại runtime, giúp giảm sự phụ thuộc vào kiểu dữ liệu cụ thể.
 ## 2. Bài Tập Sử Dụng `<T>`
 
 Ở bài tập này bạn hãy tạo nhiều class riêng biệt nha mỗi script một class nhé và class cần được lưu vào folder scripts
